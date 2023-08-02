@@ -1,6 +1,6 @@
 pragma circom 2.0.0;
 
-template polyproof () {  
+template arcircuit () {  
   
    signal input a;  
    signal input b;  
@@ -52,7 +52,7 @@ template OR() {
     out <== a + b - a*b;
 }
 
-component main = polyproof ();
+component main = arcircuit();
 /* INPUT = {
     "a": "0",
     "b": "1"
